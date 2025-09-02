@@ -18,8 +18,8 @@ int main() {
     carta1.DensidadePopulacional = (float)carta1.Populacao / carta1.AreaCidade; // calculando a densidade populacional
     carta2.DensidadePopulacional = (float)carta2.Populacao / carta2.AreaCidade;
 
-    carta1.PIBperCapita = (carta1.PIB * 1000000.0) / carta1.Populacao; // calculando o PIBperCapita
-    carta2.PIBperCapita = (carta2.PIB * 1000000.0) / carta2.Populacao;
+    carta1.PIBperCapita = (carta1.PIB * 1000000000.0) / carta1.Populacao; // calculando o PIBperCapita
+    carta2.PIBperCapita = (carta2.PIB * 1000000000.0) / carta2.Populacao;
 
     // ---- Comparação (escolher atributo aqui) ----
     printf("\n=== Comparação de Cartas (Atributo: PIB per Capita) ===\n");
